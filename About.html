@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- vendor css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <title>Boldo</title>
+  </head>
+  <!-- About us Page-->
+  <body class="h-max pb-[1em] select-none">
+    <header class="bg-[#0A2640] text-white">
+      <nav class="p-3 w-full border-gray-200 rounded">
+        <div
+          class="relative w-full flex flex-wrap items-center justify-between md:pt-[1em] md:px-[2em] lg:px-[5em] mx-auto"
+        >
+          <a href="./Home.html" class="flex items-center">
+            <svg
+              width="26"
+              height="26"
+              viewBox="0 0 26 34"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 16H17.0678C21.9511 16 25.9099 19.9588 25.9099 24.8421C25.9099 29.7255 21.9511 33.6842 17.0678 33.6842H0V16Z"
+                fill="#65E4A3"
+              />
+              <path
+                d="M0 0.526352H11.3927C15.0552 0.526352 18.0243 3.49541 18.0243 7.15793C18.0243 10.8204 15.0552 13.7895 11.3927 13.7895H0V0.526352Z"
+                fill="#65E4A3"
+              />
+            </svg>
+
+            <span
+              class="self-center mx-2 text-2xl font-semibold whitespace-nowrap"
+              >Boldo</span
+            >
+          </a>
+          <div
+            data-collapse-toggle="navbar-solid-bg"
+            type="button"
+            class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-solid-bg"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </div>
+
+          <div
+            class="hidden top-[3em] absolute text-black md:text-white md:top-0 md:static w-full md:block md:w-auto"
+            id="navbar-solid-bg"
+          >
+            <ul
+              class="flex flex-col md:items-center mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent"
+            >
+              <li>
+                <a href="./Home.html" class="block py-2 pl-3 pr-4 rounded"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="./Blog.html" class="block py-2 pl-3 pr-4 rounded"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a href="./About.html" class="block py-2 pl-3 pr-4 rounded"
+                  >About</a
+                >
+              </li>
+              <div
+                class="py-2 px-4 my-4 w-[40%] text-center mx-auto bg-black text-white md:bg-white md:text-black rounded-[15px]"
+              >
+                Log in
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section
+        class="relative bg-[#0A2640] h-max text-white darkwrapper md:pb-[10em] md:mb-[20em] lg:mb-[40em]"
+      >
+        <div class="basic-header md:space-y-[1em]">
+          <p>About</p>
+          <h1 class="md:text-4xl">
+            We love to make great things, things that matter.
+          </h1>
+          <p class="md:w-[60%] lg:w-[40%] mx-auto">
+            Funding handshake buyer business-to-business metrics iPad
+            partnership. First mover advantage innovator success deployment
+            non-disclosure.
+          </p>
+        </div>
+
+        <!-- relative image -->
+        <div
+          class="md:absolute left-0 right-0 md:flex justify-between items-center md:w-[90%] lg:w-[80%] mx-auto"
+        >
+          <div
+            class="flex justify-between md:flex-col w-full md:w-[25%] lg:w-[22%]"
+          >
+            <img
+              class="w-[49%] md:w-full h-[200px] lg:h-[300px] my-[0.1em] md:my-[0.5em] rounded-lg object-cover"
+              src="./Assest/Frame6.svg"
+              alt=""
+            />
+            <img
+              class="w-[49%] md:w-full h-[200px] lg:h-[300px] my-[0.1em] md:my-[0.5em] rounded-lg object-cover"
+              src="./Assest/Frame5.svg"
+              alt=""
+            />
+          </div>
+          <img
+            class="w-full md:w-[45%] lg:w-[50%] h-[300px] md:h-[400px] lg:h-[600px] rounded-lg object-cover my-[0.5em] md:my-[1em]"
+            src="./Assest/Frame8.svg"
+            alt=""
+          />
+          <div
+            class="flex justify-between md:flex-col w-full md:w-[25%] lg:w-[22%]"
+          >
+            <img
+              class="w-[49%] md:w-full h-[200px] lg:h-[300px] my-[0.1em] md:my-[0.5em] rounded-lg object-cover"
+              src="./Assest/Frame1.svg"
+              alt=""
+            />
+            <img
+              class="w-[49%] md:w-full h-[200px] lg:h-[300px] my-[0.1em] md:my-[0.5em] rounded-lg object-cover"
+              src="./Assest/Frame7.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- Our Story -->
+    <section class="wrapper md:w-[80%] mx-auto my-[3em] space-y-[2em]">
+      <div class="text-left space-y-[1em]">
+        <p>Our Story</p>
+        <h1 class="md:text-4xl">
+          Handshake infographic mass market crowdfunding iteration.
+        </h1>
+      </div>
+
+      <p>
+        Conversion angel investor entrepreneur first mover advantage. Handshake
+        infographic mass market crowdfunding iteration. Traction stock user
+        experience deployment beta innovator incubator focus. Sales user
+        experience branding growth hacking holy grail monetization conversion
+        prototype stock network effects. Learning curve network effects return
+        on investment bootstrapping business-to-consumer.
+      </p>
+    </section>
+
+    <!-- our numbers -->
+    <section class="darkwrapper bg-[#0A2640] md:mt-[5em]">
+      <div class="md:w-[80%] mx-auto my-[3em] space-y-[2em]">
+        <div class="basic-header">
+          <p>Our numbers</p>
+          <h1 class="md:text-4xl">
+            Handshake infographic mass market crowdfunding iteration.
+          </h1>
+        </div>
+
+        <!-- counter js -->
+        <div
+          class="text-center md:text-left mt-[3em] md:w-[70%] lg:w-[50%] mx-auto flex justify-between items-center"
+        >
+          <div class="w-[30%]">
+            <div
+              class="purecounter text-4xl md:text-6xl text-[#4FE9A4]"
+              data-purecounter-start="0"
+              data-purecounter-end="120"
+              data-purecounter-once="true"
+              data-purecounter-duration="3"
+            >
+              0
+            </div>
+            <p>Cool feature title</p>
+          </div>
+          <div class="w-[30%]">
+            <div
+              class="purecounter text-4xl md:text-6xl text-[#4FE9A4]"
+              data-purecounter-start="0"
+              data-purecounter-end="10"
+              data-purecounter-once="true"
+              data-purecounter-duration="3"
+            >
+              0
+            </div>
+            <p>Cool feature title</p>
+          </div>
+          <div class="w-[30%]">
+            <div
+              class="purecounter text-4xl md:text-6xl text-[#4FE9A4]"
+              data-purecounter-start="0"
+              data-purecounter-end="240"
+              data-purecounter-once="true"
+              data-purecounter-duration="3"
+            >
+              0
+            </div>
+            <p>Cool feature title</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team -->
+    <section class="wrapper mx-auto my-[3em] space-y-[2em]">
+      <div class="text-left md:w-[90%] lg:w-[70%] mx-auto space-y-[1em]">
+        <p>Our Team</p>
+        <h1>The Leadership team</h1>
+        <p class="md:w-[80%] lg:w-[60%]">
+          Conversion angel investor entrepreneur first mover advantage.
+          Handshake infographic mass market crowdfunding iteration. Traction
+          stock user experience deployment beta innovator incubator focus.
+        </p>
+      </div>
+
+      <!-- team member card -->
+      <div
+        class="my-[1em] md:my-[5em] lg:w-[60%] mx-auto flex justify-between flex-wrap"
+      >
+        <div class="w-[45%] md:w-[25%] my-4">
+          <img
+            class="w-full h-[200px] lg:h-[300px] object-cover rounded-lg"
+            src="./Assest/About/Image.svg"
+            alt=""
+          />
+          <p class="text-xl font-medium my-[0.5em]">Michael Scott</p>
+          <p>Genaral Manager</p>
+        </div>
+        <div class="w-[45%] md:w-[25%] my-4">
+          <img
+            class="w-full h-[200px] lg:h-[300px] object-cover rounded-lg"
+            src="./Assest/About/Image (1).svg"
+            alt=""
+          />
+          <p class="text-xl font-medium my-[0.5em]">Dwight Schrute</p>
+          <p>Genaral Manager</p>
+        </div>
+        <div class="w-[45%] md:w-[25%] my-4">
+          <img
+            class="w-full h-[200px] lg:h-[300px] object-cover rounded-lg"
+            src="./Assest/About/Image (2).svg"
+            alt=""
+          />
+          <p class="text-xl font-medium my-[0.5em]">Pam Beetsley</p>
+          <p>Genaral Manager</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Values -->
+    <section class="bg-[#0A2640] text-white pb-[2em] lg:pb-[4em]">
+      <div class="darkwrapper md:w-[90%] lg:w-[60%] mx-auto space-y-[2em]">
+        <div class="text-left space-y-[0.2em]">
+          <p>Our Values</p>
+          <h1>Things in we believe</h1>
+          <p class="md:w-[80%] lg:w-[60%]">
+            Conversion angel investor entrepreneur first mover advantage.
+            Handshake infographic mass market crowdfunding iteration. Traction
+            stock user experience deployment beta innovator incubator focus.
+          </p>
+        </div>
+
+        <!-- values  -->
+        <div class="md:w-[80%] space-y-[2em]">
+          <!-- card -->
+          <div class="flex items-center space-x-4">
+            <img
+              class="w-[30%] h-[90px] md:w-[20%] md:h-[100px] object-cover rounded-lg"
+              src="./Assest/Frame5.svg"
+              alt=""
+            />
+            <div class="md:space-y-2 w-[70%]">
+              <h2>We are commited</h2>
+              <p>
+                Conversion angel investor entrepreneur first mover advantage.
+                Handshake infographic mass market crowdfunding iteration.
+              </p>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="flex items-center space-x-4">
+            <img
+              class="w-[30%] h-[90px] md:w-[20%] md:h-[100px] object-cover rounded-lg"
+              src="./Assest/Frame1.svg"
+              alt=""
+            />
+            <div class="md:space-y-2 w-[70%]">
+              <h2>We are responsible.</h2>
+              <p>
+                Conversion angel investor entrepreneur first mover advantage.
+                Handshake infographic mass market crowdfunding iteration.
+              </p>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="flex items-center space-x-4">
+            <img
+              class="w-[30%] h-[90px] md:w-[20%] md:h-[100px] object-cover rounded-lg"
+              src="./Assest/Frame2.svg"
+              alt=""
+            />
+            <div class="md:space-y-2 w-[70%]">
+              <h2>We aim for progress.</h2>
+              <p>
+                Conversion angel investor entrepreneur first mover advantage.
+                Handshake infographic mass market crowdfunding iteration.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- newsletter -->
+    <section
+      class="darkwrapper py-[3em] md:py-[7em] bg-[#0A2640] text-center mt-[3em] lg:w-[90%] mx-auto"
+    >
+      <div class="w-full space-y-6 md:space-y-12">
+        <h1 class="md:w-[80%] lg:w-[60%] mx-auto">
+          An enterprise template to ramp up your company website
+        </h1>
+        <div class="w-full md:w-[60%] lg:w-[40%] mx-auto flex justify-between">
+          <input
+            class="outline-none border-none text-sm px-4 py-2 md:py-3 w-[70%] rounded-[15px]"
+            type="email"
+            name=""
+            placeholder="Your email address"
+            id="email"
+          />
+          <button
+            class="w-[28%] md:w-[25%] bg-[#65E4A3] font-bold text-sm rounded-[15px]"
+          >
+            Start now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer
+      class="wrapper text-center md:text-left space-y-4 mt-[3em] md:flex justify-center md:justify-between items-start"
+    >
+      <div class="md:w-[30%] lg:w-[20%] space-y-4 md:mr-[2em]">
+        <div class="flex">
+          <img src="./Assest/footer-logo.svg" alt="" />
+          <div class="text-2xl font-bold ml-2">Blodo</div>
+        </div>
+        <p>
+          Social media validation business model canvas graphical user interface
+          launch party creative facebook iPad twitter.
+        </p>
+        <p>All rights reserved.</p>
+      </div>
+      <div
+        id="footerItems2"
+        class="md:flex justify-between items-center md:w-[70%]"
+      ></div>
+    </footer>
+
+    <!-- pure counter -->
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script>
+      new PureCounter();
+    </script>
+    <!-- flowbite js -->
+    <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Javascript -->
+    <script src="./index.js"></script>
+  </body>
+</html>
