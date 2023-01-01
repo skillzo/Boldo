@@ -11,6 +11,9 @@ button {
   width: 35%;
 }
 
+.hidden {
+  display: none;
+}
 @media (min-width: 769px) {
   button {
     width: 25%;
