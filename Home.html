@@ -17,6 +17,15 @@
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Animate css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <title>Boldo</title>
   </head>
   <body class="h-max pb-[1em] select-none">
@@ -87,11 +96,13 @@
                 >About</a
               >
             </li>
-            <div
-              class="py-2 px-4 my-4 w-[40%] text-center mx-auto bg-black text-white md:bg-white md:text-black rounded-[15px]"
-            >
-              Log in
-            </div>
+            <a href="./login.html">
+              <div
+                class="py-2 px-4 my-4 w-[40%] text-center mx-auto bg-black text-white md:bg-white md:text-black rounded-[15px]"
+              >
+                Log in
+              </div>
+            </a>
           </ul>
 
           <!-- navlinks desktop -->
@@ -114,11 +125,13 @@
                 >About</a
               >
             </li>
-            <div
-              class="py-2 px-4 my-4 mx-[1em] md:my-0 w-[40%] md:w-max md:text-xs text-center mx-auto bg-black text-white md:bg-white md:text-black rounded-[15px]"
-            >
-              Log in
-            </div>
+            <a href="./login.html">
+              <div
+                class="py-2 px-4 my-4 mx-[1em] md:my-0 w-[40%] md:w-max md:text-xs text-center mx-auto bg-black text-white md:bg-white md:text-black rounded-[15px]"
+              >
+                Log in
+              </div>
+            </a>
           </ul>
         </div>
       </nav>
@@ -132,7 +145,15 @@
         <div class="space-y-6 lg:space-y-10 mt-[2em] md:w-[50%] lg:w-[40%]">
           <div class="w-full lg:space-y-6">
             <h1>Save time by building fast with Boldo Template</h1>
-            <p>
+            <p
+              data-aos="flip-up"
+              data-aos-offset="50"
+              data-aos-mirror="true"
+              data-aos-once="true"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               Funding handshake buyer business-to-business metrics iPad
               partnership. First mover advantage innovator success deployment
               non-disclosure.
@@ -250,7 +271,35 @@
               stay open.
             </h2>
             <div class="space-y-6">
-              <div class="flex items-center">
+              <div
+                data-aos="zoom-out"
+                data-aos-offset="50"
+                data-aos-mirror="true"
+                data-aos-once="true"
+                data-aos-delay="50"
+                data-aos-duration="300"
+                data-aos-easing="ease-in-out"
+                class="flex items-center"
+              >
+                <img
+                  class="w-[20px] h-[20px] mr-2"
+                  src="./Assest/check-circle-svgrepo-com.svg"
+                  alt=""
+                />
+                <p>We connect our customers with the best</p>
+              </div>
+
+              <div
+                data-aos="zoom-out"
+                data-aos-offset="50"
+                data-aos-mirror="true"
+                data-aos-once="true"
+                data-aos-delay="100"
+                data-aos-duration="400"
+                data-aos-easing="ease-in-out"
+                class="flex items-center"
+                class="flex items-center"
+              >
                 <img
                   class="w-[20px] h-[20px] mr-2"
                   src="./Assest/check-circle-svgrepo-com.svg"
@@ -258,15 +307,17 @@
                 />
                 <p>We connect our customers with the best.</p>
               </div>
-              <div class="flex items-center">
-                <img
-                  class="w-[20px] h-[20px] mr-2"
-                  src="./Assest/check-circle-svgrepo-com.svg"
-                  alt=""
-                />
-                <p>We connect our customers with the best.</p>
-              </div>
-              <div class="flex items-center">
+              <div
+                data-aos="zoom-out"
+                data-aos-offset="50"
+                data-aos-mirror="true"
+                data-aos-once="true"
+                data-aos-delay="50"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-out"
+                class="flex items-center"
+                class="flex items-center"
+              >
                 <img
                   class="w-[20px] h-[20px] mr-2"
                   src="./Assest/check-circle-svgrepo-com.svg"
@@ -299,8 +350,17 @@
               We connect our customers with the best, and help them keep up-and
               stay open.
             </h2>
+
+            <!-- Services Features -->
             <div class="space-y-4">
               <div
+                data-aos="fade-down"
+                data-aos-offset="50"
+                data-aos-mirror="true"
+                data-aos-once="true"
+                data-aos-delay="50"
+                data-aos-duration="300"
+                data-aos-easing="ease-in-out"
                 class="flex items-center bg-[#0A2640] text-white p-4 lg:w-[60%]"
               >
                 <img
@@ -312,7 +372,15 @@
                   We connect our customers with the best.
                 </div>
               </div>
-              <div class="flex items-center bg-[#E5E5E5] p-4 lg:w-[60%]">
+
+              <div
+                data-aos="fade-down"
+                data-aos-offset="100"
+                data-aos-delay="50"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-out"
+                class="flex items-center bg-[#E5E5E5] p-4 lg:w-[60%]"
+              >
                 <img
                   class="w-[20px] h-[20px] mr-2"
                   src="./Assest/eye.svg"
@@ -320,7 +388,15 @@
                 />
                 <p>Advisor success customer launch party.</p>
               </div>
-              <div class="flex items-center bg-[#E5E5E5] p-4 lg:w-[60%]">
+
+              <div
+                data-aos="fade-down"
+                data-aos-offset="100"
+                data-aos-delay="50"
+                data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                class="flex items-center bg-[#E5E5E5] p-4 lg:w-[60%]"
+              >
                 <img
                   class="w-[20px] h-[20px] mr-2"
                   src="./Assest/sun.svg"
@@ -625,5 +701,10 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!-- Javascript -->
     <script src="./index.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
